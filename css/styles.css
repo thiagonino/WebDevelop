@@ -1,4 +1,114 @@
 
 body {
-  background-color: blue;
+    margin: 0;
+    background-color: #E4F9F5;
+    text-align: center;
+}
+
+h1{
+  color: #66BFBF;
+  line-height: 1.5;
+  font-family: 'Mansalva', cursive;
+
+}
+
+h2{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+}
+
+a{
+  color: #11999E;
+}
+p{
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+/*Class*/
+
+.topCont{
+  height: 525px;
+  position: relative;
+}
+
+.firstTitle{
+  position: absolute;
+  top: 22%;
+  left: 45%;
+  width: 10%;
+  margin: 0 auto;
+}
+
+.firstPrag{
+
+  font-size: 1.5em;
+  left: 45%;
+  margin: 0 auto;
+  margin-top: 0;
+  top: 42%;
+  width: 10%;
+  position: absolute;
+  font-weight: normal;
+}
+
+
+.middleCont{
+
+}
+
+.bottonCont{
+
+}
+
+.skill-row{
+  margin: 6.25% auto 6.25% auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.chilie-img{
+  margin: auto 10% auto auto;
+  width: 25%;
+  float: left;
+}
+
+.coding-img{
+  margin: auto 10% auto auto;
+  width: 25%;
+  float: right;
+}
+
+.cloud-f{
+  position: absolute;
+  right: 30%;
+  top: 16%;
+}
+
+.cloud-s{
+  left: 30%;
+  position: absolute;
+  top: 31%;
+}
+
+.mountain{
+  bottom: 0%;
+  height: 60%;
+  left: 30%;
+  position: absolute;
+  width: 42%;
+}
+
+.imgProfile{
+  border-radius: 100%;
+  margin-top: 5%;
+  width: 21%;
 }
