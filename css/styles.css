@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    background-color: #E4F9F5;
+    background-color: white;
     text-align: center;
 }
 
@@ -27,22 +27,23 @@ a{
   color: #11999E;
 }
 p{
-
+  font-weight: bold;
   font-family: 'Montserrat', sans-serif;
 }
 
 hr{
   border: none;
-  border-color:#EAF6F6;
-  border-top: dotted;
-  border-top-width: 9px;
-  width: 6%;
+color: #EAF6F6;
+border-top: dotted;
+border-top-width: 9px;
+width: 6%;
 }
 /*Class*/
 
 .topCont{
   height: 525px;
   position: relative;
+  background-color: #EAF6F6;
 }
 
 .firstTitle{
@@ -107,6 +108,11 @@ hr{
   top: 31%;
 }
 
+.contact-me{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 3;
+}
 .mountain{
   bottom: 0%;
   height: 60%;
@@ -142,4 +148,21 @@ hr{
   margin-bottom: 0px;
   padding-bottom: 4%;
 
+}
+
+.contact-button{
+  background-color: #1c9d9b;
+  border-radius: 8px;
+  color: white;
+  font-size: 112%;
+  padding: 7px;
+  width: 13%;
+}
+
+.skills{
+  margin-top: 82px;
+}
+
+.profile{
+  margin-bottom: 82px;
 }
