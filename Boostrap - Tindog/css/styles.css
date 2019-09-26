@@ -1,0 +1,17 @@
+#title{
+  background-color: #ff4c68;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.btn-lg-download{
+  width: 40%;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  size: 3rem;
+  line-height: 2.5;
+  font-weight: 900;
+}
