@@ -57,3 +57,41 @@ h1{
   width: 60%;
 
 }
+
+/* features styles*/
+
+#features{
+  text-align: center
+}
+
+.container-features{
+  padding: 10% 10%;
+}
+
+.col-features{
+  line-height: 3;
+}
+
+.p-features{
+  color:#8f8f8f;
+  line-height: 1.5;
+  margin: 0 3rem 0 3rem;
+}
+
+.h3-features{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+
+}
+.fa-check-circle{
+  color:#ef8172;
+}
+
+.fa-bullseye{
+  color:#ef8172;
+}
+
+.fa-heart{
+color:#ef8172;
+}
