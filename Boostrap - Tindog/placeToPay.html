@@ -1,0 +1,103 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="confirmarPlaceToPay.aspx.cs" Inherits="Consulta_datosDeclaracion" %>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+  </body>
+</html>
+
+
+<form id="form1" runat="server">
+     <div class="datosDeclaracion">
+         <div class="cuadroDeclara">
+            <div class="declaracion">
+
+            <section>
+
+              <div class = "container-fluid">
+              <div class = "row">
+                <div class="col col-lg-6">  <img src= "../img/placeToPlay.PNG" style="height:110px;"></div>
+              </div>
+              <div class = "row">
+                <div class=" col col-lg-4">  <img src= "../img/sloganPlace.PNG" style="height: 20px;margin-right: 45%;"/> </div>
+              </div>
+              </div>
+
+              <div  class="encabezadoPlace"> Para mayor información de place to pay, has clic a continuación en <a href="../pdf/INT-A-002 FAQ PAGOS ELECTRÓNICOS - PLACE TO PAY1.pdf" target="_blank" style="color: #8dc575;" > Preguntas frecuentes </a> </div>
+              </section>
+
+              <div class="tituloDecla">Confirmación de pago</div>
+              <div class="columnaDecla">
+               <div class="lineaDecla">
+                    <div class="textlabel">Liquidación Web:</div>
+                    <div class="textDescInf" id="lblIdDeclaracion" runat="server">...</div>
+               </div>
+                <div class="lineaDecla">
+                    <div class="textlabel">Periodo:</div>
+                    <div class="textDescInf" style="color: #f7941e;" id="lblPeriodo" runat="server">...</div>
+               </div>
+               <div class="lineaDecla">
+                    <div class="textlabel">Placa:</div>
+                    <div class="textDescInf" id="lblPlaca" runat="server">...</div>
+               </div>
+                <div class="lineaDecla">
+                    <div class="textlabel">Cédula:</div>
+                    <div class="textDescInf" id="lblCedula" runat="server">...</div>
+               </div>
+
+           </div>
+          </div>
+
+
+
+
+            <div class="FilaFinal">
+              <div class="labelGrande">Valor a Pagar</div>
+              <div id="lblValorPagar" runat="server" class="txtGrande">...</div>
+            </div>
+
+            <div id="fechaLimite" runat="server" class="fechaLimite"></div>
+            <div id="textoDecla" class="textoDecla" >
+                   Puede consultar las últimas cinco (5) transacciones realizadas en el botón "Transacciones".
+            </div>
+
+        </div>
+
+             <div class="ptiNovedades container">
+                <input type="checkbox" id="cboxPti"/>
+                Cualquier persona que realice un pago en el sitio iuvasyc.com.co/Risaralda, actuando libre y voluntariamente, autoriza al Deparatamento de Risaralda,
+                a través del proveedor del servicio EGM Ingenieria Sin Fronteras S.A.A y/o Place to Pay para que consulte y solicite información del comportamiento crediticio
+                financiero, comercial y de servicios a terceros.
+
+            </div>
+
+         <div class="ubiBotonesPlace">
+              <input id="continuar" runat="server"  class="bontonVerde" type="button" value="Continuar" onclick="confirmacionAprovPlace() " />
+             <input id="transaccion" runat="server" class="bontonVerde"  type="button" value="Transacciones" onclick="consultaTransPlaceToPay()"/>
+
+       </div>
+
+
+
+
+      </div>
+</form>
+         <input id="hdidCliente" runat="server" type="hidden" />
+        <input id="hdCedula" runat="server" type="hidden" />
+        <input id="hdDpto" runat="server" type="hidden" />
+         <input id="hdMuni" runat="server" type="hidden" />
+        <input id="hdEmail" runat="server" type="hidden" />
+        <input id="hdTelefono" runat="server" type="hidden" />
+        <input id="hdCelular" runat="server" type="hidden" />
+        <input id="hdDireccion" runat="server" type="hidden" />
+         <input id="hdsoat" runat="server" type="hidden" />
+         <input id="hdpoliza" runat="server" type="hidden" />
+        <input id="hdVigencia" runat="server" type="hidden" />
+        <input id="hdIdDeclaracion" runat="server" type="hidden" />
+        <input id="hdNroForm" runat="server" type="hidden" />
+         <input id="hdPlaca" runat="server" type="hidden" />
+        <input id="hdTotalPago" runat="server" type="hidden" />
